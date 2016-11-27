@@ -155,7 +155,6 @@ int main(){
     crono(popcount1, "popcount1 (en lenguaje C  -for)");
     crono(popcount2, "popcount2 (en lenguaje C  -while)");
     crono(popcount3, "popcount3 (bloque asm entero)");
-    //printf("aquí estoy");
     crono(popcount4, "popcount4 (en C, mascara)");
     crono(popcount5, "popcount5 (SSSE3)");
     	
@@ -163,5 +162,5 @@ int main(){
     printf("calculado = %d\n", RESULT);
 #endif
     exit(0);
-}				
+}
 
